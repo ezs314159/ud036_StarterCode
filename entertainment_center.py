@@ -2,6 +2,7 @@
 from media import Movie
 from fresh_tomatoes import open_movies_page
 
+# define information about all the movies for the entertainment center
 movies = []
 movies.append(Movie("Avatar",
              trailer_youtube_url="https://www.youtube.com/watch?v=5PSNL1qE6VY",
@@ -17,5 +18,5 @@ movies.append(Movie("The Secret Life of Walter Mitty",
              poster_image_url="http://www.impawards.com/2013/posters/secret_life_of_walter_mitty.jpg"))
 
 
-                    
+# open a browser to display the entertainment center website                    
 open_movies_page(movies)

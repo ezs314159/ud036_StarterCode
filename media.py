@@ -1,6 +1,9 @@
 
 class Movie:
-    """ Movie information including display attributes """
+    """
+    Manage information about a movie including title, trailer
+    and poster urls
+    """
     
     def __init__(self,
                  title,
