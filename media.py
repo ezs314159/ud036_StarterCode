@@ -1,10 +1,9 @@
-
 class Movie:
     """
     Manage information about a movie including title, trailer
     and poster urls
     """
-    
+
     def __init__(self,
                  title,
                  trailer_youtube_url=None,
