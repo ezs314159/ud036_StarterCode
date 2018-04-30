@@ -6,7 +6,7 @@ for each movie.
 ```
 git clone https://github.com/ezs314159/ud036_StarterCode.git
 ```
-2. Change to the repository directory and run the "entertainment_center.py" python program.
+2. Change to the repository directory and run `python entertainment_center.py`.
 3. You may add movies to the Entertainment Center list by editing entertainment_center.py. Use 
 the Movie class to define new instances and add them to the movie list.
 # Limitations
