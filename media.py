@@ -3,7 +3,20 @@ Manage media displayed by the entertainment center website.
 """
 
 class Movie:
-    """ Manage information about a movie. """
+    """ 
+    A data container for movie information.
+    
+    Attributes:
+        title (str):  The title of the movie.
+        trailer_youtube_url (str, optional): The URL of a Youtube
+            tailer video for the movie.
+        poster_image_url (str, optional):  The URL of a poster 
+            image for the movie.
+        run_time (int, optional):  Total run time of the movie
+            in minutes.
+        synopsis (str, optional): Brief text describing the movie.
+        director (str, optional): Director name (last name first).
+    """
 
     def __init__(self,
                  title,
@@ -13,20 +26,10 @@ class Movie:
                  synopsis=None,
                  director=None):
         """
-        A data container for movie information.
+        Return a new Movie object.
         
-        :param title"
-            The title of the movie.
-        :param trailer_youtube_url:
-            A URL which will display a Youtube tailer video for the movie.
-        :param poster_image_url:
-            A URL for a poster image for the movie.
-        :param run_time:
-            Optional total run time of the movie in minutes.
-        :param synopsis:
-            Optional paragraph of text describing the movie.
-        :param director:
-            Optional name of the movie director, last name first.
+        The parameters are the movie title and optionally other 
+        attributes of the class.
         """
         self.title = title
         self.trailer_youtube_url = trailer_youtube_url
