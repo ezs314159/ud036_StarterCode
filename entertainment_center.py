@@ -1,10 +1,10 @@
-""" 
+"""
 define favorite movies and display them in entertainment center
 website.
 """
 
-from media import Movie
 from fresh_tomatoes import open_movies_page
+from media import Movie
 
 # define information about all the movies for the entertainment center
 movies = []

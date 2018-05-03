@@ -2,15 +2,16 @@
 Manage media displayed by the entertainment center website.
 """
 
+
 class Movie:
-    """ 
+    """
     A data container for movie information.
-    
+
     Attributes:
         title (str):  The title of the movie.
         trailer_youtube_url (str, optional): The URL of a Youtube
             tailer video for the movie.
-        poster_image_url (str, optional):  The URL of a poster 
+        poster_image_url (str, optional):  The URL of a poster
             image for the movie.
         run_time (int, optional):  Total run time of the movie
             in minutes.
@@ -27,8 +28,8 @@ class Movie:
                  director=None):
         """
         Return a new Movie object.
-        
-        The parameters are the movie title and optionally other 
+
+        The parameters are the movie title and optionally other
         attributes of the class.
         """
         self.title = title
